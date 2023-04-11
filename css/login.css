@@ -1,0 +1,21 @@
+header{
+    background-color: #24353F;
+    height: 100vh;
+}
+#LoginWindow{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 20px 17px;
+}
+a{
+text-decoration: none;
+}
+a:hover{
+    text-decoration: underline white ;
+}
+input{
+    background-color: #24353F !important;
+    border-color:rgba(255, 255, 255, 0.575) !important;
+    color: white !important;
+    }
+input::placeholder{
+    color: rgba(255, 255, 255, 0.575) !important ;
+    }

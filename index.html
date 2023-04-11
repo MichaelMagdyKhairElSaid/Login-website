@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>extremely secure login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header class="overflow-hidden">
+        <div class="container overflow-auto w-75 my-3">
+            <div class="row my-5 ">
+                <div class="col-12 m-auto w-75 p-5 text-center  "  id="LoginWindow">
+                    <h1 class="text-info">Smart Login System</h1>
+
+                   <input id="signinEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+                    <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+                    <p id="logInError" class="m-2 text-danger d-none" >wrong password or email</p>
+        
+                    <button  class="btn btn-outline-info w-100 my-3" id="loginBtn">Login</button>
+                    <p class="text-white">Don’t have an account? <a class="text-white" href="signUp.html" >Sign Up</a></p>
+        
+                </div>
+            </div>
+        </div>
+    </header>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/logIn.js"></script>
+</body>
+</html>
