@@ -32,6 +32,7 @@ function findUser(userEmail) {
           }
       }else{
         console.log("wrong (email)");
+        logInError.classList.remove("d-none");
       }  
         
     }
